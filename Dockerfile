@@ -3,6 +3,7 @@ LABEL maintainer="cpmills1975@users.noreply.github.com"
 
 RUN /entrypoint.sh \
   -b libffi-dev \
+  -b openssh-client \
   -b openssl-dev \
   -p ansible \
   -p pynetbox
